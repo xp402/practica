@@ -13,7 +13,10 @@ header {
 h1, h2 {
     font-style: initial;
 }
-
+h2{
+    font-size: 30px;
+    margin: 40px 0 10px;
+}
 header h1{
     color:white;
     font-size: 50px;
@@ -26,10 +29,29 @@ header img{
 main {
     max-width: 800px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding:20px;
 }
 main img {
     max-width: 800px;
 }
-
-
+a{
+    color:#900C3F;
+}
+a:hover{
+    color: white;
+    background-color: #581845;
+}
+footer{
+    color: white;
+    background-color: #581845;
+    text-align: center;
+    padding: 50px;
+}
+footer p{
+    margin: 0;
+}
+p.caption{
+    color: #999;
+    font-size: medium ;
+    margin-top: 0;
+}
